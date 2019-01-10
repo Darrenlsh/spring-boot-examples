@@ -12,7 +12,6 @@ public class ThymeleafApplication extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(ThymeleafApplication.class);
     }
-
     public static void main(String[] args) throws Exception {
         SpringApplication.run(ThymeleafApplication.class, args);
     }

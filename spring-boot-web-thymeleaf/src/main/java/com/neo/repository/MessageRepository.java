@@ -3,6 +3,9 @@ package com.neo.repository;
 
 import com.neo.model.Message;
 
+/**
+ * @author luosihao
+ */
 public interface MessageRepository {
 
 	Iterable<Message> findAll();
