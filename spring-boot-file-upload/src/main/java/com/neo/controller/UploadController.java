@@ -14,7 +14,10 @@ import java.nio.file.Paths;
 
 @Controller
 public class UploadController {
-    //Save the uploaded file to this folder
+    /**
+     * Save the uploaded file to this folder
+     */
+
     private static String UPLOADED_FOLDER = "E://temp//";
 
     @GetMapping("/")
